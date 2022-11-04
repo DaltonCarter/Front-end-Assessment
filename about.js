@@ -16,7 +16,7 @@ let form = document.querySelector('#contact');
 form.addEventListener('submit', handleSubmit);
 
 function duckHover(event) {
-	alert("*Squeeky* You are quite curious! You'll go places with a good healthy curiosity *Squeeker*. I am the terror that flaps in the night! *Squeek*")
+	alert("*Squeeky* You are quite curious! You'll go places with a good healthy curiosity *Squeeker*. I am the terror that flaps in the night! *Squeekin*")
 }
 
 document.querySelector('img').addEventListener('mouseover', duckHover)
