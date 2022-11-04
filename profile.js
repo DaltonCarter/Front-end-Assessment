@@ -21,9 +21,16 @@ function ritualAlert () {
 }
 
 
+function handleSubmit(evt) {
+	evt.preventDefault();
+	
+	// console.log('form submit');
+	alert('Thanks!! ...I think.')
+}
 
+let form = document.querySelector('form')
 
-
+form.addEventListener('submit', handleSubmit);
 colorBtn.addEventListener('click', colorAlert)
 placeBtn.addEventListener('click', placeAlert)
 ritualBtn.addEventListener('click', ritualAlert)
