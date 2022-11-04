@@ -3,6 +3,7 @@ console.log('Goliath Online')
 const colorBtn = document.querySelector('#color')
 const placeBtn = document.querySelector('#place')
 const ritualBtn = document.querySelector('#ritual')
+let form = document.querySelector('form')
 
 
 function colorAlert () {
@@ -28,7 +29,7 @@ function handleSubmit(evt) {
 	alert('Thanks!! ...I think.')
 }
 
-let form = document.querySelector('form')
+
 
 form.addEventListener('submit', handleSubmit);
 colorBtn.addEventListener('click', colorAlert)
